@@ -1,0 +1,23 @@
+{
+  "name": "test-bot",
+  "version": "1.0.0",
+  "description": "test bot",
+  "main": "bot.js",
+  "author": "Marcus Ostling, Gustav Schneider",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "ffmpeg-binaries": "^3.2.2",
+    "opusscript": "0.0.6",
+    "ytdl-core": "^0.20.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gits-15.sys.kth.se:csgo-discord/bot.git"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
