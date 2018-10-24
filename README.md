@@ -24,5 +24,5 @@ https://github.com/discordjs/discord.js
 
 ## add bot
 ```
-https://discordapp.com/oauth2/authorize?client_id=425281860042752020&scope=bot
+https://discordapp.com/oauth2/authorize?&client_id=504628810465935366&scope=bot&permissions=305657920
 ```
