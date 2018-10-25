@@ -1,4 +1,4 @@
-exports.run = (client, message, args, level, audioplayer) => {
+exports.run = (client, message, args, level, objects) => {
 	if(args.length > 0) {
 		let cmdStr = "";
 		let commandFile = require(`./${args[0]}.js`);

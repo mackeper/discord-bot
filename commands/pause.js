@@ -1,5 +1,5 @@
-exports.run = async (client, message, args, level, audioplayer) => {
-	audioplayer.pause();
+exports.run = async (client, message, args, level, objects) => {
+	objects.audioplayer.pause();
 };
 
 exports.conf = {

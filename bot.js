@@ -28,7 +28,11 @@ bot.on("message", message => {
 	try {
 		let commandFile = require(`./commands/${command}.js`);
 		level = 0;
-		commandFile.run(bot, message, args, level, audioplayer);
+        let objects = 
+            {
+                audioplayer: audioplayer,
+            }
+		commandFile.run(bot, message, args, level, objects);
 	} catch (err) {
 		console.error(err);
 	}

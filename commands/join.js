@@ -1,4 +1,4 @@
-exports.run = async (client, message, args, level, audioplayer) => {
+exports.run = async (client, message, args, level, objects) => {
 	const voiceChannel = message.member.voiceChannel;
 	if (!voiceChannel || voiceChannel.type !== 'voice') {
 		message.channel.send("Unable to join your voice channel...");

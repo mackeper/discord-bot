@@ -1,4 +1,4 @@
-exports.run = async (client, message, args, level, audioplayer) => {
+exports.run = async (client, message, args, level, objects) => {
 	let [start, end] = args;
 	let value = Math.floor(Math.random() * parseInt(end)) + parseInt(start);
 	message.channel.send(value);

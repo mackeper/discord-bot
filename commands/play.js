@@ -1,6 +1,7 @@
-exports.run = async (client, message, args, level, audioplayer) => {
+exports.run = async (client, message, args, level, objects) => {
 	// Play streams using ytdl-core
 	const voiceChannel = message.member.voiceChannel;
+    const audioplayer = objects.audioplayer;
 	if (!voiceChannel || voiceChannel.type !== 'voice') {
 		message.channel.send("Unable to leave your voice channel...");
 		return;
